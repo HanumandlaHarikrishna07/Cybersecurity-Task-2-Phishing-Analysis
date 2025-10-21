@@ -1,0 +1,64 @@
+Delivered-To: chandureddy157@gmail.com
+Received: by 2002:a05:693c:37c2:b0:201:9320:b26e with SMTP id st2csp2860842dyc;
+        Sat, 11 Oct 2025 02:05:48 -0700 (PDT)
+X-Google-Smtp-Source: AGHT+IHiRcFO35lICCvahKjMJ2cB2+eTKi0ilcJY2x4DJsyA2MoE0OIBJnKs08NW9ZJEGpTnlmSH
+X-Received: by 2002:a05:6a20:72a0:b0:308:60dc:921b with SMTP id adf61e73a8af0-32da845e6d1mr22632543637.40.1760173548120;
+        Sat, 11 Oct 2025 02:05:48 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1760173548; cv=none;
+        d=google.com; s=arc-20240605;
+        b=XCZMM4jMGzf4f7zihvfSMa0MfAxXc72Tprh3QPxnAc5D44dpWgDXufbVVZhmVtEGdG
+         BqAxppG/oaos3LL0UAvdE62CdFe1lugCsq7vsIsoTyrqT4kvYmqO4shGQ1vSvpQlhx5h
+         8zsay9gZQ06h3zthGSC2wgs/qRvQdK9FMLvUYJEY7563dLzNR2EDaz3PwFvgyg547Nih
+         dDI+cQ2q0QKK2Hp1onAP8j6ZB91gqXJRuVeQhbCOYgeRs9RpcX1ZO7vVheoelagkPV6d
+         PPb2C5xbIhbFR2FZ/N8KCz2AVi/5qmjY6+AYthnL+GGOw9v9S3Pd4bBdVHCfBZ7nDrFo
+         0vnQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=content-transfer-encoding:mime-version:message-id:reply-to:from
+         :date:subject:to;
+        bh=h4YN5yHW/b8B4J1TAcdXM5MB1ko3GSs2jD+VYJ+DGQQ=;
+        fh=De5QWf0oCQlO+FShmj3/PGKGWEVzlFjgqkEhkDYACO0=;
+        b=lky4mzdAN7aXncPntmOMOYVEsjAxmqUdkVpYn2JzYySEJRBYzg5P9OmefL7cxz8/gN
+         gtjmkJSeAaQFkkZU1ciJF+aYpKsRwsj0rlDbULevvuxrlEuy5FS8uX+b2l+4JSFvpp8O
+         vTaLU0RVNQRKEs319cxj8tzhjFlmCN5Cbvdb6zDd4XqKbwgfBPX4B+j7ZVDpj2FBKNh5
+         M9mhTEibiZnR9yE8Ja/F4NdMEZ+5xhzV9lnRjF0ALRooy+TBPf1ajNBiP5AI9MdDMz+a
+         w1gnB2dYiFq8y1dDVONyfoeA4pcbXvOr1e1DvkFvMsRQWXRDcbBsiRkR4oV++Qe2EbHR
+         NNAA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of info@dance-s-and-e.com designates 163.44.185.107 as permitted sender) smtp.mailfrom=info@dance-s-and-e.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=dance-s-and-e.com
+Return-Path: <info@dance-s-and-e.com>
+Received: from spd119.phy.lolipop.jp (spd119.phy.lolipop.jp. [163.44.185.107])
+        by mx.google.com with ESMTPS id 41be03b00d2f7-b6790478957si2762380a12.722.2025.10.11.02.05.47
+        for <chandureddy157@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 11 Oct 2025 02:05:48 -0700 (PDT)
+Received-SPF: pass (google.com: domain of info@dance-s-and-e.com designates 163.44.185.107 as permitted sender) client-ip=163.44.185.107;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of info@dance-s-and-e.com designates 163.44.185.107 as permitted sender) smtp.mailfrom=info@dance-s-and-e.com;
+       dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=dance-s-and-e.com
+Received: by spd119.phy.lolipop.jp (Postfix, from userid 995)
+	id C3DAB1CA1DA1E; Sat, 11 Oct 2025 18:05:46 +0900 (JST)
+To: chandureddy157@gmail.com
+Subject: =?UTF-8?B?44GK5ZWP5ZCI44KP44Gb44GC44KK44GM44Go44GG44GU44GW44GE44G+44GZ?=
+X-PHP-Originating-Script: 1627518:PHPMailer.php
+Date: Sat, 11 Oct 2025 09:05:46 +0000
+From: =?UTF-8?B?44OA44Oz44K5UyZF?= <info@dance-s-and-e.com>
+Reply-To: info@dance-s-and-e.com
+Message-ID: <P9QN9j1mEgc7OGnPvPRspWrrNIFtqdSUhpRVzH03yx0@dance-s-and-e.com>
+X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+* * * 💳 You have received a $3,827.00 credit to your account 3377 on 10/11/2025 12:05:50 PM. Please confirm the operation here: http://fintellect.in/index.php?jtolug 💳 * * *様
+この度はお問合わせありがとうございます。
+確認後、担当者より改めてご連絡いたしますので、今しばらくお待ちください。
+
+題名: 469pq4
+メッセージ本文:
+a765lc
+
+-- 
+このメールは ダンスS&Eのお問い合わせフォームから送信されました
+
